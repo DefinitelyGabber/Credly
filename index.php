@@ -314,14 +314,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             <!-- PASSWORD FIELD -->
                                             <div class="c-field-group c-field-group__has-label signin-form__field">
                                                 <div class="c-field-group__input-group c-field-group__input-group--enclosed">
-                                                    <label for="password_10" id="label_password_10" class="c-input-label c-field-group__label"><span>Password</span></label>
-                                                    <input type="password" class="c-password-field__input" aria-required="true" name="password" id="password_10" aria-labelledby="label_password_10" autocomplete="current-password" required>
-                                                </div>
-                                            </div>
-
-                                            <!-- PASSWORD FIELD -->
-                                            <div class="c-field-group c-field-group__has-label signin-form__field">
-                                                <div class="c-field-group__input-group c-field-group__input-group--enclosed">
                                                     <label for="password_10" id="label_password_10" class="c-input-label c-field-group__label"><span>Password</span><span></span></label>
                                                     <input type="password" class="c-password-field__input" aria-required="true" name="password" id="password_10" aria-labelledby="label_password_10" autocomplete="current-password" required>
                                                 </div>
@@ -416,3 +408,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //]]>
     </script>
+

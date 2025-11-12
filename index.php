@@ -333,8 +333,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                     </button>
                                                 </div>
 
-                                            </form>
-
                                             <!-- SOCIAL SIGN-ON SECTION -->
                                             <div class="social-signon-buttons__sso-content">
                                                 <div class="social-signon-buttons__or">OR</div>
@@ -401,5 +399,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //]]>
     </script>
+
 
 

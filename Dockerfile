@@ -1,13 +1,13 @@
 # Use PHP 8.2 CLI image
 FROM php:8.2-cli
 
-# Install extensions required by PHP (none strictly needed for this script, but mbstring is safe)
+# Install system dependencies for PostgreSQL
 RUN apt-get update && apt-get install -y \
-    libonig-dev \
+    libpq-dev \
     unzip \
     git \
     curl \
-    && docker-php-ext-install mbstring \
+    && docker-php-ext-install pdo pdo_pgsql \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set working directory

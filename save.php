@@ -7,3 +7,11 @@ if (isset($_POST['user_input'])) {
 } else {
     echo "No input received.";
 }
+
+<?php
+if (file_exists('data.txt')) {
+    echo nl2br(file_get_contents('data.txt'));
+} else {
+    echo "No data yet.";
+}
+

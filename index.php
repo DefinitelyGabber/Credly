@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="icon" type="image/svg+xml" href="images/credlyicon.png">
-
+    <link rel="icon" type="image/png" href="favicon.png">
     <script async="" src="./sign_credly_files/pendo.js.download"></script>
     <script src="./sign_credly_files/otSDKStub.js.download" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="01939cd7-7f26-7c87-af17-d2bfc69700b9"></script>
     <style type="text/css" id="operaUserStyle"></style>
@@ -401,6 +401,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //]]>
     </script>
+
 
 
 

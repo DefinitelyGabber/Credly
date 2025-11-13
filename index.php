@@ -166,6 +166,50 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style data-styled="active" data-styled-version="5.3.11"></style>
     <link id="googleidentityservice" type="text/css" media="all" href="./sign_credly_files/style" rel="stylesheet">
     <meta http-equiv="origin-trial" content="A8o5T4MyEkRZqLA9WeG2XTFdV5tsX2Prg85xyQ+RL1btVuybB1K/EQ+7JUsPK+J32oBMTnsoF9B4A+qTlL6efgQAAABweyJvcmlnaW4iOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkZlZENtQnV0dG9uTW9kZSIsImV4cGlyeSI6MTc0NDY3NTIwMCwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+
+<style>
+.google-sso-button__responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.google-sso-button__google-sso-button {
+  position: relative;               /* enables absolute positioning of logo */
+  display: flex;
+  align-items: center;
+  justify-content: center;          /* keeps text centered */
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 418px;
+  height: 44px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #3c4043;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.google-sso-button__google-sso-button:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.google-sso-button__logo {
+  position: absolute;
+  left: 16px;                       /* sticks to the left inside the button */
+  width: 20px;
+  height: 20px;
+}
+
+</style>
+
+
 </head>
 
 <body class="">
@@ -339,14 +383,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             <!-- SOCIAL SIGN-ON SECTION -->
                                             <div class="social-signon-buttons__sso-content">
                                                 <div class="social-signon-buttons__or">OR</div>
-                                                <div class="google-sso-button__responsive-container">
+                                                <!-- <div class="google-sso-button__responsive-container">
                                                     <div role="button" id="google_sso_btn" class="google-sso-button__g-sso-button">
                                                         <div class="S9gUrf-YoZ4jf" style="position: relative;">
                                                             <div></div>
-                                                            <iframe src="./sign_credly_files/button.html" class="L5Fo6c-PQbLGe" allow="identity-credentials-get" id="gsi_109652_628505" title="Sign in with Google" style="display: block; position: relative; top: 0px; left: 0px; height: 44px; width: 418px; border: 0px; margin: -2px -10px;"></iframe>
+                                                            <iframe src="./sign_credly_files/button.html" class="L5Fo6c-PQbLGe" allow="identity-credentials-get" id="gsi_109652_628505" title="Sign in with Google" style="display: block; position: relative; top: 0px; left: 0px; height: 44px; width: 418px; border: 0px; margin: -2px -10px;">Sign in with Google</iframe>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
+                                                <div class="google-sso-button__responsive-container">
+                                                    <div role="button" class="google-sso-button__google-sso-button" tabindex="0">
+                                                        <img src="./google-logo.png" alt="Google logo" class="google-sso-button__logo">
+                                                        <span>Sign in with Google</span>
+                                                    </div>
+                                                    </div>
+
+
+
                                                 <div class="apple-sso-button__responsive-container">
                                                     <div role="button" class="apple-sso-button__apple-sso-button" tabindex="0">
                                                         <img src="./sign_credly_files/apple-logo-E4IM6MJE.digested.svg" alt="" class="apple-sso-button__logo">
@@ -425,3 +478,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </ul>
         </div>
     </footer>
+

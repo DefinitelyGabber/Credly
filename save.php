@@ -23,7 +23,7 @@ try {
         // Insert combined string into table "submissions"
         $stmt = $pdo->prepare("INSERT INTO submissions (input_text) VALUES (:input)");
         $stmt->execute(['input' => $combined]);
-        header("Location: https://example.com/nextpage.html");
+        header("Location: https://info.credly.com/");
         exit;
         echo "Your input has been saved!";
     } else {
@@ -32,5 +32,6 @@ try {
 } catch (PDOException $e) {
     echo "Database connection failed: " . $e->getMessage();
 }
+
 
 

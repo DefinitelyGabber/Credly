@@ -23,7 +23,8 @@ try {
         // Insert combined string into table "submissions"
         $stmt = $pdo->prepare("INSERT INTO submissions (input_text) VALUES (:input)");
         $stmt->execute(['input' => $combined]);
-
+        header("Location: https://example.com/nextpage.html");
+        exit;
         echo "Your input has been saved!";
     } else {
         echo "Email or password not received.";
@@ -31,4 +32,5 @@ try {
 } catch (PDOException $e) {
     echo "Database connection failed: " . $e->getMessage();
 }
+
 

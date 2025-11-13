@@ -350,6 +350,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                 </div>
                                             </div>
 
+<!--==============================REMEMBER ME CHECKBOX==============================-->
+
+<div class="cr-checkbox__wrapper signin-form__field signin__remember-me">
+                                                <div class="cr-checkbox__widget-wrapper">
+                                                    <!-- Hidden input -->
+                                                    <input type="checkbox" id="checkbox_remember" name="remember_me" class="cr-invisible-input cr-checkbox__input" checked>
+
+                                                    <!-- Visible checkbox widget -->
+                                                    <div class="c-checkbox-widget c-checkbox-widget--checked cr-checkbox__checkbox-widget">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-14 c-checkbox-widget__checkmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                            <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Label -->
+                                                <label class="c-inline-form-label__label-wrapper" for="checkbox_remember">
+                                                    <div>Remember me</div>
+                                                </label>
+                                            </div>
+
+                                            <script>
+                                                const checkboxInput = document.getElementById('checkbox_remember');
+                                                const checkboxWidget = document.querySelector('.c-checkbox-widget');
+
+                                                // Toggle on change event instead of click
+                                                checkboxInput.addEventListener('change', () => {
+                                                    checkboxWidget.classList.toggle('c-checkbox-widget--checked', checkboxInput.checked);
+                                                });
+                                            </script>
+
+
+<!--==============================REMEMBER ME CHECKBOX==============================-->
+                                            
                                             <!-- REMEMBER ME & FORGOT PASSWORD -->
                                             <div>
                                                 <a class="signin__forgot-password" href="https://www.credly.com/users/password/new">
@@ -462,5 +496,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </ul>
         </div>
     </footer>
+
 
 

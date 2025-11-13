@@ -302,7 +302,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <div class="signin-form" data-webdriver-signin-main="">
                                         <!-- Form submits to itself -->
                                         <form data-testid="form" class="signin-form__form" method="POST" action="save.php">
-
+                                            <div class="signin-form__header">
+                                                <h2 class="ac-heading ac-heading--action-page-head">Sign In</h2>
+                                            </div>
                                             <!-- EMAIL FIELD -->
                                             <div class="c-field-group c-field-group__has-label signin-form__field">
                                                 <div class="c-field-group__input-group c-field-group__input-group--enclosed">
@@ -399,6 +401,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         //]]>
     </script>
+
 
 
 

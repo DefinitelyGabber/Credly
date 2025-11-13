@@ -404,8 +404,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </script>
 
 
-
-
-
-
-
+<footer id="footer" style="background-color: #ffffff; border-top: 1px solid #dcdcdc; padding: 15px 30px;">
+        <div style="text-align: right;">
+            <ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; flex-wrap: wrap; gap: 8px; font-family: Arial, sans-serif; font-size: 13px;">
+                <li><a href="https://resources.credly.com/schedule-a-demo" style="color: #004438; text-decoration: none;">Request Demo</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://info.credly.com/about-us" style="color: #004438; text-decoration: none;">About Credly</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://info.credly.com/legal" style="color: #004438; text-decoration: none;">Terms</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://www.pearson.com/en-gb/privacy-center/privacy-notices.html" style="color: #004438; text-decoration: none;">Privacy</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://www.credly.com/docs/web_service_api" style="color: #004438; text-decoration: none;">Developers</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://www.credly.com/support" style="color: #004438; text-decoration: none;">Support</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://info.credly.com/cookie-policy" style="color: #004438; text-decoration: none;">Cookies</a></li>
+                <li style="color: #888;">|</li>
+                <li><a href="https://info.credly.com/cookie-policy" style="color: #004438; text-decoration: none;">Do Not Sell My Personal Information</a></li>
+            </ul>
+        </div>
+    </footer>

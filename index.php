@@ -322,23 +322,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <img src="./sign_credly_files/credly-logo-white-NBKYDKYM.digested.svg" alt="Credly logo" class="homepage__logo">
                                 </a>
                                 <h1 class="homepage__header">Level up your career.</h1>
-                                <div class="homepage__top-text-container">
-                                    <p class="homepage__top-text">Join millions of professionals, recruiters, and employers on Credly, where you can:</p>
-                                    <ul>
-                                        <li>
-                                            <div class="homepage__action-item-container"><span class="homepage__icon"></span>Grow your professional skills</div>
-                                        </li>
-                                        <li>
-                                            <div class="homepage__action-item-container"><span class="homepage__icon"></span>Broadcast your skills to managers at your company</div>
-                                        </li>
-                                        <li>
-                                            <div class="homepage__action-item-container"><span class="homepage__icon"></span>Earn credentials that translate to college credit</div>
-                                        </li>
-                                        <li>
-                                            <div class="homepage__action-item-container"><span class="homepage__icon"></span>Discover new professional opportunities</div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <div class="homepage__top-text-container"><p class="homepage__top-text">Join millions of professionals, recruiters, and employers on Credly, where you can:</p><ul><li><div class="homepage__action-item-container"><span class="homepage__icon"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></span>Grow your professional skills</div></li><li><div class="homepage__action-item-container"><span class="homepage__icon"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></span>Broadcast your skills to managers at your company</div></li><li><div class="homepage__action-item-container"><span class="homepage__icon"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></span>Earn credentials that translate to college credit</div></li><li><div class="homepage__action-item-container"><span class="homepage__icon"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></span>Discover new professional opportunities</div></li></ul></div>
                             </div>
 
                             <!-- RIGHT SIDE: Signin form -->
@@ -478,4 +462,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </ul>
         </div>
     </footer>
+
 
